@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+
+.heading{
+    width: 900px;
+    height: 130px;
+    background: #BBE9C8;
+    color: #801A82;
+    font-size: 36px;
+    border-radius: 10%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputContainer{
+width: 446px;
+height: 68px;
+background: #801A82;
+border-radius: 59px;
+}
+.fields{
+    display: flex;
+    gap: 100px;
+}
+input{
+    border: none;
+    width: 446px;
+    border-radius: 59px;
+    background: #801A82;
+text-align: center;
+color: white;
+font-size: 16px;
+   height: 68px;
+}
+input::placeholder{
+
+color: grey;
+font-size: 16px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+.liContainer{
+    display: flex;
+    gap: 100px;
+}
+li{
+    width:389px;
+    height: 69px;
+    background: #CBEFE7;
+    list-style: none;
+    color:  #801A82;
+    text-align: center;
+    font-size: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 5%;
+}
+.todos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
