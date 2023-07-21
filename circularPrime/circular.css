@@ -1,0 +1,48 @@
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 100px;
+}
+.heading{
+
+background: dodgerblue;
+width: 400px;
+height: 50px;
+color:white;
+font-size: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10%;
+}
+ input{
+    border: none;
+    width: 200px;
+    box-shadow: 2px 2px 2px 2px black;
+    height: 30px;
+    text-align: center;
+ }
+ input:focus{
+    outline: none;
+ }
+ input::placeholder{
+text-align: center;
+ }
+ .flex{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+ }
+ .display{
+
+height: 100px;
+width: 200px;
+background: dodgerblue;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+ }
