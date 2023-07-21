@@ -24,7 +24,7 @@ p.innerHTML= input.value;
 
 div.appendChild(li)
 div.appendChild(del)
-
+input.value =''
 
 
 todo.appendChild(div)
