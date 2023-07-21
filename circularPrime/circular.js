@@ -1,4 +1,3 @@
-// Function to check if a number is prime
 function isPrime(num) {
   if (num <= 1) return false;
   if (num <= 3) return true;
@@ -13,7 +12,6 @@ function isPrime(num) {
   return true;
 }
 
-// Function to rotate the digits of a number and return all circular permutations
 function getCircularPermutations(num) {
   let numStr = num.toString();
   let circularPermutations = [numStr];
@@ -26,7 +24,6 @@ function getCircularPermutations(num) {
   return circularPermutations.map(Number);
 }
 
-// Function to find the number of circular primes below the given number
 function findCircularPrimes() {
   const inputElement = document.getElementById("numberInput");
   const num = parseInt(inputElement.value);
