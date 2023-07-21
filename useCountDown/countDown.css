@@ -1,0 +1,26 @@
+.container{
+    width: 450px;
+    background: black;
+    height:200px;
+    border: 2px solid black;
+    color: #F9F4DA;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+.header{
+    font-size: 40px;
+    margin-left: 40px;
+}
+.number{
+    font-size: 60px;
+}
