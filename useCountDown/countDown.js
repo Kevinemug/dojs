@@ -1,3 +1,35 @@
-const display = document.getElementById('display')
-const five = document.getElementById('five')
-const fifteen = document.getElementById('fifteen')
+let display = document.getElementById('display')
+let five = document.getElementById('five')
+let fifteen = document.getElementById('fifteen')
+let ten = document.getElementById('ten')
+
+five.addEventListener('click',() => {
+
+five = Number(display.innerHTML) + 5
+display.innerHTML =five
+
+})
+ten.addEventListener('click',() => {
+
+ten = Number(display.innerHTML) + 10
+display.innerHTML =ten
+
+})
+fifteen.addEventListener('click',() => {
+
+fifteen = Number(display.innerHTML) + 15
+display.innerHTML =fifteen
+
+})
+
+window.addEventListener('onLoad',  () =>{
+
+    setTimeout(() => {
+        current =Number(display.innerHTML) +10
+        display.innerHTML= current 
+        
+        },1000)
+
+})
+
+
