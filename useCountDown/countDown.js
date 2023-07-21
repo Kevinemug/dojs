@@ -22,13 +22,20 @@ display.innerHTML =fifteen
 
 })
 
-window.addEventListener('onLoad',  () =>{
+window.addEventListener('DOMContentLoaded',  () =>{
+let current =0
+const updateDisplay = () => {
+    display.innerHTML = current;
+};
+const countdown = () => {
+        current += 10;
+        updateDisplay();
+};
+updateDisplay();
 
-    setTimeout(() => {
-        current =Number(display.innerHTML) +10
-        display.innerHTML= current 
-        
-        },1000)
+setTimeout(() => {
+    setInterval(countdown, 1000); // Repeat the countdown every second
+}, 1000);
 
 })
 
