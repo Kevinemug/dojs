@@ -18,10 +18,13 @@ div.classList.add('liContainer')
 let li = document.createElement('li')
 let p= document.createElement('p')
 let del = document.createElement('button')
+let box = document.createElement('input')
+box.setAttribute('type','checkbox')
 del.innerHTML ="remove"
 li.appendChild(p)
 p.innerHTML= input.value;
 
+div.appendChild(box)
 div.appendChild(li)
 div.appendChild(del)
 input.value =''

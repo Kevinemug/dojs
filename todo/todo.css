@@ -38,6 +38,10 @@ color: white;
 font-size: 16px;
    height: 68px;
 }
+input[type="checkbox"]{
+    width:20px;
+    height: 20px;
+}
 input::placeholder{
 
 color: grey;
@@ -51,7 +55,7 @@ input:focus{
 }
 .liContainer{
     display: flex;
-    gap: 100px;
+    gap: 70px;
 }
 li{
     width:389px;
