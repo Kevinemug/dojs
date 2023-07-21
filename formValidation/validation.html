@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Numeric Input Comparison</title>
+  <style>
+    .error {
+      color: red;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Numeric Input Comparison</h2>
+  <label for="input1">Input 1:</label>
+  <input type="text" id="input1" value="0" oninput="compareValues()">
+  <br>
+  <label for="input2">Input 2:</label>
+  <input type="text" id="input2" value="0" oninput="compareValues()">
+  <br>
+  <div class="error" id="errorDisplay"></div>
+
+  <script src="validation.js"></script>
+</body>
+</html>
