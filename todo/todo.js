@@ -8,6 +8,11 @@ const todo = document.getElementById('todos')
 
 button.addEventListener('click',(e) =>{
     e.preventDefault()
+if(input.value === '') {
+ 
+    alert('kevine, stop the laziness')
+    return
+}
 let div = document.createElement('div')
 div.classList.add('liContainer')
 let li = document.createElement('li')
